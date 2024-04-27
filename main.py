@@ -1,7 +1,9 @@
-import mlProject
+import sys
+sys.path.append("src/mlProject")
 from src.mlProject import logger
 # from src.mlProject import DataIngestionTrainingPipeline # type: ignore
-from src.mlProject.pipeline import DataIngestionTrainingPipeline
+# from src.mlProject.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+
 
 
 
