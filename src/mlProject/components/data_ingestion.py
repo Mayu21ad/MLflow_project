@@ -1,11 +1,10 @@
 import os
 import urllib.request as request
 import zipfile
-
-# from src.mlProject import logger
-from src.mlProject.utils.common import get_size
+import logger # type: ignore
+from mlProject.utils.common import get_size
 from pathlib import Path
-# from src.mlProject.entity.config_entity import DataIngestionConfig
+from src.mlProject.entity.config_entity import DataIngestionConfig
 
 class DataIngestionConfig:
     def __init__(self, root_dir, source_URL, local_data_file, unzip_dir):
